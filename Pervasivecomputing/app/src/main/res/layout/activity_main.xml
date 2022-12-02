@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="6"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+       android:layout_weight="1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/multi"
+        android:layout_weight="2"
+        />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="M u l t i - U S E"-->
+<!--        android:textColor="#8BC34A"-->
+<!--        android:textSize="60dp"-->
+<!--        android:fontFamily="@font/bebasneue_regular"-->
+<!--         />-->
+    <Button
+        android:id="@+id/homepagebuttonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="START"
+        android:onClick="startPage"
+        android:fontFamily="@font/bebasneue_regular"
+        android:textSize="45dp"
+        />
+
+
+
+
+
+</LinearLayout>

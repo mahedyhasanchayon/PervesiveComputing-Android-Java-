@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="4"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Test Yourself"
+        android:textColor="@color/purple_700"
+        android:textSize="50dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="What is the longest sea beach in the world?"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="italic|bold"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/myradiogroupid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/myradiobtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sockton Beach"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/myradiobtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bali Sea Beach"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/myradiobtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cox's Bazar"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/myradiobtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Virginia Beach"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="Next"
+        android:onClick="nextFunction"
+        android:textSize="40dp" />
+
+
+</LinearLayout>

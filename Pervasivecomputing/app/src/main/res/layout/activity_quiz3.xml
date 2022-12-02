@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".QuizActivity3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Congratulation !"
+        android:textColor="@color/Orange"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/resultID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="Yours Marks = "
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tryagainID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="TRY AGAIN !!"
+        android:textSize="35dp"
+        android:onClick="tryAgain"
+        />
+    <Button
+        android:id="@+id/gohomeID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Back To HOME PAGE"
+        android:textSize="25dp"
+        android:onClick="gohomepage"
+        />
+</LinearLayout>

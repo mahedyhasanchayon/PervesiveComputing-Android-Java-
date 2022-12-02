@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "557424964243",
+    "firebase_url": "https://pervasivecomputing-e8736-default-rtdb.firebaseio.com",
+    "project_id": "pervasivecomputing-e8736",
+    "storage_bucket": "pervasivecomputing-e8736.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557424964243:android:adf4326b0fb7e9e4ddd366",
+        "android_client_info": {
+          "package_name": "com.example.pervasivecomputing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557424964243-g7tunqd5or69mddvaofol6ud9hcnfpig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKEMlmrav22uk9xNdWK3D9IE19N93CdGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557424964243-g7tunqd5or69mddvaofol6ud9hcnfpig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
